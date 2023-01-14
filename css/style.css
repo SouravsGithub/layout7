@@ -149,3 +149,32 @@ nav ul {
 .about-card:last-child {
   margin-top: 0.2rem;
 }
+
+/* DESCRIPTION STYLING */
+.description {
+  background-color: #f3f4f6;
+  display: flex;
+  gap: 8%;
+  justify-content: space-around;
+  padding: 5% 15%;
+}
+
+.description-text h2 {
+  font-size: 2.5rem;
+  margin: 0;
+  margin-bottom: 2%;
+}
+
+.description-text>p {
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 19%;
+}
+
+.description-text>a {
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 1rem 2.5rem;
+}
