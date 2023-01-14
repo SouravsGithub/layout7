@@ -132,3 +132,20 @@ nav ul {
 .hero .left {
   right: 9.5%;
 }
+
+/* ABOUT STYLING */
+.about {
+  width: 65%;
+  margin: 7% auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 8%;
+}
+
+.about-card {
+  text-align: center;
+}
+
+.about-card:last-child {
+  margin-top: 0.2rem;
+}
