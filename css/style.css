@@ -1,4 +1,5 @@
 /* Box Model Hack */
+/* BASE STYLES */
 * {
   box-sizing: border-box;
 }
@@ -8,8 +9,8 @@ html {
   padding: 0;
 }
 
+/* HEADER STYLING */
 header {
-  border-bottom: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,4 +47,66 @@ nav ul {
   display: flex;
   justify-content: space-between;
   margin: 0;
+}
+
+/* HERO STYLING */
+.hero {
+  height: 150vh;
+  background: url(../images/great2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding-left: 10%;
+  padding-top: 20.5%;
+  position: relative;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 6.5rem;
+  font-weight: 400;
+  transform: scaleY(1.1);
+}
+
+.hero>p {
+  letter-spacing: 4px;
+  margin-bottom: 5%;
+}
+
+.hero>a {
+  color: white;
+  background: black;
+  text-decoration: none;
+  padding: 1.5rem 2.5rem;
+}
+
+.hero-card {
+  background: black;
+  color: white;
+  width: 18rem;
+  padding: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  letter-spacing: 1px;
+}
+
+.hero-card span {
+  font-size: 2.5rem;
+}
+
+.hero-card>p {
+  line-height: 1.7;
+}
+
+.hero-card>a {
+  color: black;
+  text-decoration: none;
+  background: white;
+  padding: 1rem 2rem;
+}
+
+.before-button {
+  margin-bottom: 5rem;
 }
